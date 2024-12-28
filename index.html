@@ -8,9 +8,7 @@
   </head>
   <body>
     <div class="calculator">
-      <form action="">
-        <input type="text" readonly class="set_input" placeholder="Enter" />
-      </form>
+      <input type="text" readonly class="set_input" placeholder="Enter" />
       <div class="down">
         <button onclick="display(event)">7</button>
         <button onclick="display(event)">8</button>
@@ -28,7 +26,7 @@
         <button onclick="display(event)">.</button>
         <button onclick="solve()">=</button>
         <button onclick="display(event)" class="operation">+</button>
-        <button onclick="_clear()">C</button>
+        <button onclick="reset()">C</button>
       </div>
     </div>
     <script src="script.js"></script>

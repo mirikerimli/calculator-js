@@ -13,12 +13,15 @@ function display(event) {
   }
 }
 
-function _clear() {
+function reset() {
   setInput.value = 0;
 }
 
 function solve() {
   try {
+    if (setInput.value.includes("/0")) {
+      throw new Error("Error");
+    }
     setInput.value = Number(eval(setInput.value));
   } catch (error) {
     setInput.value = "Error";
