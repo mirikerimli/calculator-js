@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: hsl(0, 5%, 96%);
 }
 
 .calculator {
@@ -17,16 +18,18 @@ body {
   border: 1px solid hsla(0, 0%, 0%, 0.484);
   width: 300px;
   height: auto;
-  background-color: hsla(0, 0%, 0%, 0.73);
+  background-color: hsl(0, 0%, 13%);
+  border-radius: 10px;
 }
 
 .set_input {
   text-align: end;
-  background-color: hsla(0, 0%, 100%, 0.67);
+  background-color: hsla(0, 0%, 29%, 0.67);
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 30px;
+  color: #fff;
 }
 
 .down {
@@ -43,17 +46,18 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: hsla(0, 0%, 100%, 0.779);
+  background-color: hsla(0, 0%, 35%, 0.779);
+  color: #fff;
 }
 
 button:hover {
-  background-color: hsla(0, 0%, 100%, 0.879);
+  background-color: hsla(0, 0%, 45%, 0.779);
 }
 
 .operation {
-  background-color: hsla(38, 100%, 50%, 0.674);
+  background-color: hsl(38, 84%, 44%);
 }
 
 .operation:hover {
-  background-color: hsla(38, 100%, 50%, 0.774);
+  background-color: hsl(38, 94%, 44%);
 }
